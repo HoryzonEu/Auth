@@ -1,0 +1,3 @@
+[submodule "MC-Git-Bash-Startup-Script"]
+	path = ./
+	url = https://github.com/Breakerland/MC-Git-Bash-Startup-Script.git
