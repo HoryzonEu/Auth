@@ -2,9 +2,9 @@
 registration:
     disabled: '&cL''inscription est désactivée.'
     name_taken: '&cUtilisateur déjà inscrit.'
-    register_request: '&cPour vous inscrire, utilisez "/register <MotDePasse> <ConfirmerMotDePasse>"'
-    command_usage: '&cUsage: /register <MotDePasse> <ConfirmerMotDePasse>'
-    reg_only: 'Seul les joueurs enregistrés sont admis!%nl%Veuillez vous rendre sur https://www.example.com pour plus d''infos.'
+    register_request: '&cPour vous inscrire, utilisez "/register <MotDePasse> (Email)"'
+    command_usage: '&cUsage: /register <MotDePasse> (Email)'
+    reg_only: 'Seul les joueurs enregistrés sont admis!%nl%Veuillez vous rendre sur https://www.breakerland.fr pour plus d''infos.'
     success: '&aInscription effectuée !'
     kicked_admin_registered: 'Un admin vient de vous inscrire, veuillez vous reconnecter.'
 # Password errors on registration
