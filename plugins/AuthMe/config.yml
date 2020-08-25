@@ -526,16 +526,16 @@ limbo:
     # Whether the player is allowed to fly: RESTORE, ENABLE, DISABLE, NOTHING.
     # RESTORE sets back the old property from the player. NOTHING will prevent AuthMe
     # from modifying the 'allow flight' property on the player.
-    restoreAllowFlight: RESTORE
+    restoreAllowFlight: NOTHING
     # Restore fly speed: RESTORE, DEFAULT, MAX_RESTORE, RESTORE_NO_ZERO.
     # RESTORE: restore the speed the player had;
     # DEFAULT: always set to default speed;
     # MAX_RESTORE: take the maximum of the player's current speed and the previous one
     # RESTORE_NO_ZERO: Like 'restore' but sets speed to default if the player's speed was 0
-    restoreFlySpeed: RESTORE_NO_ZERO
+    restoreFlySpeed: DEFAULT
     # Restore walk speed: RESTORE, DEFAULT, MAX_RESTORE, RESTORE_NO_ZERO.
     # See above for a description of the values.
-    restoreWalkSpeed: RESTORE_NO_ZERO
+    restoreWalkSpeed: DEFAULT
 BackupSystem:
     # General configuration for backups: if false, no backups are possible
     ActivateBackup: false
