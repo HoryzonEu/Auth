@@ -318,7 +318,7 @@ settings:
     # Should we remove leave messages altogether?
     removeLeaveMessage: true
     # Do we need to add potion effect Blinding before login/register?
-    applyBlindEffect: true
+    applyBlindEffect: false
     # Do we need to prevent people to login with another case?
     # If Xephi is registered, then Xephi can login, but not XEPHI/xephi/XePhI
     preventOtherCase: true
@@ -390,7 +390,7 @@ Protection:
     # Enable some servers protection (country based login, antibot)
     enableProtection: false
     # Apply the protection also to registered usernames
-    enableProtectionRegistered: true
+    enableProtectionRegistered: false
     geoIpDatabase:
         # The MaxMind clientId used to download the GeoIp database,
         # get one at https://www.maxmind.com/en/accounts/current/license-key
@@ -412,7 +412,7 @@ Protection:
     countriesBlacklist: 
     - A1
     # Do we need to enable automatic antibot system?
-    enableAntiBot: true
+    enableAntiBot: false
     # The interval in seconds
     antiBotInterval: 5
     # Max number of players allowed to login in the interval
@@ -435,7 +435,7 @@ Purge:
     # Do we need to remove the Essentials/userdata/player.yml file during purge process?
     removeEssentialsFile: false
     # World in which the players.dat are stored
-    defaultWorld: world
+    defaultWorld: auth
     # Remove LimitedCreative/inventories/player.yml, player_creative.yml files during purge?
     removeLimitedCreativesInventories: false
     # Do we need to remove the AntiXRayData/PlayerData/player file during purge process?
@@ -464,7 +464,7 @@ Security:
         requireForRegistration: false
     tempban:
         # Tempban a user's IP address if they enter the wrong password too many times
-        enableTempban: false
+        enableTempban: true
         # How many times a user can attempt to login before their IP being tempbanned
         maxLoginTries: 10
         # The length of time a IP address will be tempbanned in minutes
@@ -480,7 +480,7 @@ Security:
         # Number of characters a recovery code should have (0 to disable)
         length: 8
         # How many hours is a recovery code valid for?
-        validForHours: 4
+        validForHours: 24
         # Max number of tries to enter recovery code
         maxTries: 3
         # How long a player has after password recovery to change their password
