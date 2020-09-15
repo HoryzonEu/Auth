@@ -5,7 +5,7 @@ bossbar:
   enable: true
   color: WHITE
   # 0, 6, 10, 12 or 20
-  segment: 0
+  segment: 20
 
 ### TITLE SETTINGS ###
 title:
