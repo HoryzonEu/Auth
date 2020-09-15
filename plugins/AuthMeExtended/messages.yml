@@ -1,7 +1,7 @@
 auth: '&8[&6Auth&8] '
 title:
-  register: '&8Enregistrement...\n&8Faites /register <MotDePasse> (Email)'
-  login: '&8Connexion...\n&8Faites /login <MotDePasse>'
+  register: '&e&lEnregistrement...\n&eFaites /register <MotDePasse> (Email)'
+  login: '&e&lConnexion...\n&eFaites /login <MotDePasse>'
 bossbar:
   register: '&cVous serez déconnecté(e) dans %time% secondes'
   login: '&cVous serez déconnecté(e) dans %time% secondes'
