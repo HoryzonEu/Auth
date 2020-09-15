@@ -1,0 +1,18 @@
+spectateEntity: '06a9acd3-93ef-491e-a8e7-4a827f6afd3e'
+
+### BOSSBAR SETTINGS ###
+bossbar:
+  enable: true
+  color: WHITE
+  # 0, 6, 10, 12 or 20
+  segment: 0
+
+### TITLE SETTINGS ###
+title:
+  enable: true
+  repeat: true
+  fadeIn: 2
+  stay: 60
+  fadeOut: 2
+  # Repeat delay if repeat is enable
+  delay: 5
