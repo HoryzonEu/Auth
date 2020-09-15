@@ -12,7 +12,7 @@ title:
   enable: true
   repeat: false
   fadeIn: 40
-  stay: 120
+  stay: 1200
   fadeOut: 40
   # Repeat delay if repeat is enable
   delay: 5
