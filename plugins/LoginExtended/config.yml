@@ -10,9 +10,10 @@ bossbar:
 ### TITLE SETTINGS ###
 title:
   enable: true
-  repeat: false
-  fadeIn: 40
-  stay: 1200
-  fadeOut: 40
-  # Repeat delay if repeat is enable
+  fadeIn: 1
+  stay: 10
+  fadeOut: 1
+  # Delay before the first title is send.
   delay: 5
+  # Period between 2 titles. Set to 0 to disable it.
+  period: 5
