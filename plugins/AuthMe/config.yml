@@ -113,7 +113,7 @@ settings:
     # Log level: INFO, FINE, DEBUG. Use INFO for general messages,
     # FINE for some additional detailed ones (like password failed),
     # and DEBUG for debugging
-    logLevel: FINE
+    logLevel: INFO
     # By default we schedule async tasks when talking to the database. If you want
     # typical communication with the database to happen synchronously, set this to false
     useAsyncTasks: true
@@ -187,21 +187,21 @@ settings:
         allowMovement: false
         # After how many seconds should players who fail to login or register
         # be kicked? Set to 0 to disable.
-        timeout: 60
+        timeout: 90
         # Regex pattern of allowed characters in the player name.
         allowedNicknameCharacters: '[a-zA-Z0-9_]*'
         # How far can unregistered players walk?
         # Set to 0 for unlimited radius
         allowedMovementRadius: 10
         # Should we protect the player inventory before logging in? Requires ProtocolLib.
-        ProtectInventoryBeforeLogIn: true
+        ProtectInventoryBeforeLogIn: false
         # Should we deny the tabcomplete feature before logging in? Requires ProtocolLib.
-        DenyTabCompleteBeforeLogin: true
+        DenyTabCompleteBeforeLogin: false
         # Should we display all other accounts from a player when he joins?
         # permission: /authme.admin.accounts
-        displayOtherAccounts: true
+        displayOtherAccounts: false
         # Spawn priority; values: authme, essentials, cmi, multiverse, default
-        spawnPriority: essentials,authme,multiverse,default
+        spawnPriority: authme,default
         # Maximum Login authorized by IP
         maxLoginPerIp: 3
         # Maximum Join authorized by IP
@@ -321,7 +321,7 @@ settings:
     applyBlindEffect: false
     # Do we need to prevent people to login with another case?
     # If Xephi is registered, then Xephi can login, but not XEPHI/xephi/XePhI
-    preventOtherCase: true
+    preventOtherCase: false
 GroupOptions:
     # Enables switching a player to defined permission groups before they log in.
     # See below for a detailed explanation.
@@ -358,11 +358,11 @@ Email:
     # Recovery password length
     RecoveryPasswordLength: 8
     # Mail Subject
-    mailSubject: Récupération mot de passe
+    mailSubject: Instructions pour changer le mot de passe
     # Like maxRegPerIP but with email
     maxRegPerEmail: 1
     # Recall players to add an email?
-    recallPlayers: true
+    recallPlayers: false
     # Delay in minute for the recall scheduler
     delayRecall: 30
     # Blacklist these domains for emails
@@ -406,6 +406,8 @@ Protection:
     countries: 
     - US
     - GB
+    - FR
+    - BE
     - LOCALHOST
     # Countries not allowed to join the server and register
     # PLEASE USE QUOTES!
