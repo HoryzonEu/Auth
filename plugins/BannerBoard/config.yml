@@ -431,4 +431,6 @@ bannerboards:
       - TEXT -text %bungee_survie% -size 30 -font DejaVu Sans -color 255,255,255 -strokeColor
         0,0,0 -strokeThickness 0 -xOffset 1750 -yOffset 810
       - TEXT -text %bungee_creatif% -size 30 -font DejaVu Sans -color 255,255,255
-        -strokeColor 0,0,0 -strokeThickness 0 -xOffset 1750 -yOffset 910
+        -strokeColor 0,0,0 -strokeThickness 0 -xOffset 1750 -yOffset 925
+      - TEXT -text %bungee_skyblock% -size 30 -font DejaVu Sans -color 255,255,255
+        -strokeColor 0,0,0 -strokeThickness 0 -xOffset 1750 -yOffset 1075
